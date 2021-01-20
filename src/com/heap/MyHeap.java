@@ -188,7 +188,7 @@ public class MyHeap {
 
     public static void main(String[] args) {
 
-        int[] data = {6, 4, 8, 10, 7, 3};
+        /*int[] data = {6, 4, 8, 10, 7, 3};
         MyHeap myHeap = new MyHeap(data);
         myHeap.show();
 
@@ -206,7 +206,12 @@ public class MyHeap {
 
         System.out.println("测试删除顶点");
         myHeap.removeTop();
-        myHeap.show();
+        myHeap.show();*/
+
+        System.out.println("测试删TOP10");
+/*        int[] data = new int[10];
+        MyHeap myHeap = new MyHeap(data);
+        myHeap.insert();*/
 
 
     }
